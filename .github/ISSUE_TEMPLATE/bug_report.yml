@@ -47,11 +47,11 @@ body:
           # render:
 
     - type: textarea
-      id: logs
+      validations:
+          required: true
       attributes:
           label: Relevant log output
           description: Please copy and paste any relevant log output.
-          render: shell
 
     - type: markdown
       attributes:
