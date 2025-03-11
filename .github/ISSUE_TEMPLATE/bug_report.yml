@@ -17,20 +17,14 @@ body:
           required: true
       attributes:
           label: Expected behavior
-          # description:
           placeholder: Describe what you expected to happen.
-          # value:
-          # render:
 
     - type: textarea
       validations:
           required: true
       attributes:
           label: Actual behavior
-          # description:
           placeholder: Describe what actually happen.
-          # value:
-          # render:
 
     - type: textarea
       validations:
@@ -43,8 +37,6 @@ body:
               2. Step2
               3. etc.
               ...
-          # value:
-          # render:
 
     - type: textarea
       validations:
@@ -72,7 +64,6 @@ body:
               and paste the output here.
               Or, you can check it in the device settings page. i.e. `Settings -> General -> About -> [DeviceName / Version]`
           placeholder: adb shell getprop ro.fota.version && adb shell getprop ro.product.model
-          # value: |
           render: text
 
     - type: input
@@ -91,5 +82,4 @@ body:
           label: Your `manifest.json`
           description: Please paste the content of your project `manifest.json` here, you can find it in `Packages/manifest.json`.
           placeholder: manifest.json
-          # value:
           render: json
