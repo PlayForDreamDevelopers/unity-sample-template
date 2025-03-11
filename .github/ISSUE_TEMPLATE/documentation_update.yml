@@ -6,10 +6,10 @@ labels: [documentation]
 body:
     - type: markdown
       attributes:
-      value: |
-          ## Tips
-            - Please be specific about which documentation needs to be updated - Provide as much detail as possible about the suggested changes
-          ------
+          value: |
+              ## Tips
+                - Please be specific about which documentation needs to be updated - Provide as much detail as possible about the suggested changes
+              ------
 
     - type: textarea
       validations:
