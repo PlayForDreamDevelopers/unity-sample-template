@@ -1,6 +1,6 @@
 name: Bug report
 description: Something isn't working as expected.
-title: "[BUG]"
+title: "[BUG]: "
 labels: [bug]
 
 body:
@@ -18,7 +18,7 @@ body:
       attributes:
           label: Expected behavior
           # description:
-          placeholder: Descripe what you expected to happen.
+          placeholder: Describe what you expected to happen.
           # value:
           # render:
 
@@ -28,7 +28,7 @@ body:
       attributes:
           label: Actual behavior
           # description:
-          placeholder: Descripe what actually happen.
+          placeholder: Describe what actually happen.
           # value:
           # render:
 
@@ -52,6 +52,8 @@ body:
       attributes:
           label: Relevant log output
           description: Please copy and paste any relevant log output.
+          placeholder: |
+              [log output]
 
     - type: markdown
       attributes:
@@ -87,7 +89,7 @@ body:
           required: false
       attributes:
           label: Your `manifest.json`
-          description: Please paste the content of `manifest.json` here, you can find it in `Packages/manifest.json`.
+          description: Please paste the content of your project `manifest.json` here, you can find it in `Packages/manifest.json`.
           placeholder: manifest.json
           # value:
           render: json
