@@ -1,45 +1,62 @@
-[![us](https://img.shields.io/badge/lang-us-red.svg)](./README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 
-<!-- PROJECT LOGO -->
+<!--
+请先阅读此文档！！！！
+将以下占位符替换为实际值：
+    - {{PROJECT_REPO_URL}}: 项目仓库的URL
+    - {{DocumentationURL}}: 项目文档的URL，尽可能使用docfx生成的GitHub Pages
+    - {{BriefDescription}}: 项目简介
+    - {SampleURL}: 示例项目的URL，对于包项目，应为示例仓库的URL。如果包项目有多个示例，请链接到“关于项目”部分的“示例”标题。
+    - {BugIssueURL}: 报告错误问题的URL
+      - 例如：https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=bug_report.yml
+    - {FeatureIssueURL}: 请求功能问题的URL
+      - 例如：https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=feature_request.yml
+    - {DocumentationIssueURL}: 文档问题的URL
+      - 例如：https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=documentation_update.yml
+-->
+
 <br />
 <div align="center">
-  <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity">
-    <img src="https://www.pfdm.cn/en/static/img/logo.2b1b07e.png" alt="Logo" width="20%">
-  </a>
+    <a href="{{PROJECT_REPO_URL}}">
+        <img src="https://www.pfdm.cn/en/static/img/logo.2b1b07e.png" alt="Logo" width="20%">
+    </a>
+    <h1 align="center">设备 Unity 示例</h1>
+    <p align="center">
+        {{BriefDescription}}
+        <br />
+        <a href="{{DocumentationURL}}"><strong>查看文档 »</strong></a>
+        <br />
+        <br />
+        <a href="{{SampleURL}}">查看示例</a>
+        &middot;
+        <a href="{{BugIssueURL}}">报告错误</a>
+        &middot;
+        <a href="{{FeatureIssueURL}}">请求功能</a>
+        &middot;
+        <a href="{{DocumentationIssueURL}}">改进文档</a>
+    </p>
 
-  <h1 align="center">Device Unity Sample </h1>
-
-  <p align="center">
-    一系列展现如何使用 PFDM 企业版 Device SDK 的 Unity 示例。
-    <br />
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/blob/main/README.zh.md"><strong>查看文档 »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity">查看示例</a>
-    &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?labels=bug">Bug 报告</a>
-    &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?labels=enhancement">需求要求</a>
-  </p>
 </div>
 
-> [!tip]
->
-> 本部分的功能，仅在企业版设备上支持，具体内容可参考 [企业版服务](https://www.pfdm.cn/yvrdoc/biz/docs/0.Overview.html)
+<!-- 如果需要，请在此处添加提示 -->
 
 ## 关于项目
 
-PFDM 企业版 Device Unity SDK 提供了企业版用户修改/查看设备信息的功能。本项目提供了几个最小示例，以说明 SDK API 的使用方法：
+<!-- 项目描述
+    这个项目的功能是什么，它的用途是什么，等等。
 
--   [Device](https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/tree/main/Assets/Device): 展现所能查询到的设备信息，及控制设备的音量/亮度
-    ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
+    对于示例项目，请在此处描述每个示例并附上截图或GIF。
+    对于包项目，请描述包的功能，并链接到示例项目。
+
+    -->
+
+### 示例
+
+<!-- 链接到第一个示例项目 -->
+<!-- 链接到第二个示例项目 -->
 
 ## 要求
 
--   Unity 2022.3.52f1 或更新版本
--   Unity 包：
-    -   [YVR Core](https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror)
-    -   [YVR Utilities](https://github.com/PlayForDreamDevelopers/com.yvr.Utilities-mirror)
-    -   [YVR Enterprise](https://github.com/PlayForDreamDevelopers/com.yvr.enterprise-mirror)
-    -   [YVR Android-Device Core](https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror)
-    -   [YVR Interaction](https://github.com/PlayForDreamDevelopers/com.yvr.interaction-mirror)
+<!-- 项目要求：
+    Unity版本，依赖的 Unity Package 等，如果 Unity Package 有 Mirror 仓库的话，需要链接到该仓库的地址。
+-->

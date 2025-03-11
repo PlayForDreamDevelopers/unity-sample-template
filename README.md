@@ -4,13 +4,16 @@
 READ ME FIRST !!!!!!
 Replace the following placeholders with the actual values:
     - {{PROJECT_REPO_URL}}: URL of the project repository
+    - {{Project Name}}: Name of the project
     - {{DocumentationURL}}: URL of the project documentation, Use github pages with docfx if possible
     - {{BriefDescription}}: Brief description about the project
     - {SampleURL}: URL of the sample project, for package projects, it should be sample repository URL. If a package projects has multiple samples, then link to `Samples` header of the `About The Project` section.
     - {BugIssueURL}: URL of the bug reporting issue template
-      - i.e.  https://github.com/PlayForDreamDevelopers/unity-template/issues/new?label=bug&template=bug_report.yml
+      - i.e.  https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=bug_report.yml
     - {FeatureIssueURL}: URL of the feature request issue template
-      - i.e.
+      - i.e. https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=feature_request.yml
+    - {DocumentationIssueURL}: URL of the documentation issue template
+      - i.e. https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=documentation_update.yml
 -->
 
 <br />
@@ -18,7 +21,7 @@ Replace the following placeholders with the actual values:
     <a href="{{PROJECT_REPO_URL}}">
         <img src="https://www.pfdm.cn/en/static/img/logo.2b1b07e.png" alt="Logo" width="20%">
     </a>
-    <h1 align="center">Device Unity Sample </h1>
+    <h1 align="center"> {{Project Name}} </h1>
     <p align="center">
         {{BriefDescription}}
         <br />
@@ -56,4 +59,6 @@ Replace the following placeholders with the actual values:
 ## Requirements
 
 <!-- Requirements about the project:
-    Unity version, Unity packages, etc. -->
+    Unity version, Unity packages, etc.
+    If the Unity package has a mirror repository, link to that repository.
+    -->
