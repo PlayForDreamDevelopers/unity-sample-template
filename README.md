@@ -28,7 +28,7 @@ Replace the following placeholders with the actual values:
         <a href="{{DocumentationURL}}"><strong>View Documentation »</strong></a>
         <br />
         <br />
-        <a href="{{SampleURL}}">View Samples</a>
+        <a href="#samples">View Samples</a>
         &middot;
         <a href="{{BugIssueURL}}">Report Bug</a>
         &middot;

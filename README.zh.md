@@ -27,7 +27,7 @@
         <a href="{{DocumentationURL}}"><strong>查看文档 »</strong></a>
         <br />
         <br />
-        <a href="{{SampleURL}}">查看示例</a>
+        <a href="#samples">查看示例</a>
         &middot;
         <a href="{{BugIssueURL}}">报告错误</a>
         &middot;
