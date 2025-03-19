@@ -7,3 +7,4 @@ EditorBuildSettings:
   m_Scenes: []
   m_configObjects:
     YVR.Core.XR.YVRXRSettings: {fileID: 11400000, guid: afbc465c9cce0994db4d7a584db140dd, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 89c1bb3bdc193a94386a459331a0b237, type: 2}
